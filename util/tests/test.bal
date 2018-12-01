@@ -13,8 +13,8 @@ function testSubList() {
 
 @test:Config
 function testContains() {
-    var actual1 = list.contains(30);
+    boolean actual1 = list.contains(30);
     test:assertTrue(actual1);
-    var actual2 = list.contains(15);
+    boolean actual2 = list.contains(15);
     test:assertFalse(actual2);
 }
