@@ -1,3 +1,6 @@
+# List object for list operations.
+#
+# + list - Set of values initialized as `any[]`
 public type List object {
 
     any[] list;
@@ -6,7 +9,17 @@ public type List object {
 	    self.list = list;
     }
 
+    # Returns the sub list of the given list.
+    #
+    # + low - Lower bound index of the sublist
+    # + high - Upper bound index of the sublist
+    # + return - Populated sub list as `any[]`
     public function subList(int low, int high) returns any[];
+
+    # Returns whether the given value exists in the given list.
+    #
+    # + value - Value to be checked for existance
+    # + return - Status of existance
     public function contains(any value) returns boolean;
 };
 
