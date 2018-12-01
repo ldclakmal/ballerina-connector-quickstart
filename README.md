@@ -1,7 +1,7 @@
 # Ballerina Utility Connector
 
 The Utility connector allows you to do all the utility operations related to following categories.
-1. Arrays
+1. List
 
 ## Compatibility
 
@@ -18,8 +18,18 @@ Import the `b7a/util` module into the Ballerina project.
 import b7a/util;
 ```
 
-The `subArray` function returns the sub array of the given array.
+Initialize the list with the initial set of values. For the sample we will use an integer array.
 ```ballerina
-    int[] a = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-    int[] actual = subArray(a, 0, 3);
+    int[] intList = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    List list = new(intList);
+```
+
+The `subList` function returns the sub list of the given list.
+```ballerina
+    var response = list.subList(0, 3);
+```
+
+The `contains` function returns whether the given item exists in the list.
+```ballerina
+    boolean response = list.contains(30);
 ```
