@@ -7,7 +7,7 @@ The Utility connector allows you to do all the utility operations related to fol
 
 | Ballerina Language Version  |
 |:---------------------------:|
-| 0.985.0                     |
+| 0.990.0                     |
 
 ## Getting started
 
