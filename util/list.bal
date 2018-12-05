@@ -26,7 +26,7 @@ public type List object {
 function List.subList(int low, int high) returns any[] {
     any[] list = [];
     int count = 0;
-    foreach i in low...(high - 1) {
+    foreach int i in low...(high - 1) {
         list[count] = self.list[i];
         count += 1;
     }
@@ -34,7 +34,7 @@ function List.subList(int low, int high) returns any[] {
 }
 
 function List.contains(any value) returns boolean {
-    foreach item in self.list {
+    foreach var item in self.list {
         if (item === value) {
             return true;
         }
