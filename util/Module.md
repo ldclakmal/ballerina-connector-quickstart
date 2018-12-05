@@ -35,3 +35,13 @@ The `contains` function returns whether the given item exists in the list.
 ```ballerina
     boolean response = list.contains(30);
 ```
+
+The `add` function adds the given item and returns the updated list.
+```ballerina
+    var response = list.add(110);
+```
+
+The `remove` function removes the given item and returns the updated list.
+```ballerina
+    var response = list.remove(110);
+```
