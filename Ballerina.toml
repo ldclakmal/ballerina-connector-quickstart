@@ -1,7 +1,5 @@
 [project]
-org-name = "b7a"
-version = "0.0.1"
-authors = ["Chanaka Lakmal"]
-repository = "https://github.com/ldclakmal/module-util"
-keywords = ["utils","utility functions"]
-license = "Apache-2.0"
+org-name= "ldclakmal"
+version= "0.1.0"
+
+[dependencies]
