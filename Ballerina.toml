@@ -1,5 +1,9 @@
 [project]
-org-name= "ldclakmal"
-version= "0.1.0"
+org-name = "ldclakmal"
+version = "0.1.0"
+authors = ["Chanaka Lakmal"]
+keywords = ["sample-connector", "connector", "quickstart"]
+repository = "https://github.com/ldclakmal/ballerina-connector-quickstart"
+license = ["Apache-2.0"]
 
 [dependencies]
