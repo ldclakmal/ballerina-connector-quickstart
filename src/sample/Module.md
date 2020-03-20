@@ -6,7 +6,7 @@ This is a sample Ballerina connector for demonstration purpose.
 
 | Ballerina Language Version |
 |:--------------------------:|
-| 1.0                        |
+| 1.2.0                      |
 
 ## Getting started
 
@@ -16,13 +16,13 @@ Move inside to `ballerina-connector-quickstart` directory and execute `$ balleri
 
 ```shell
 Compiling source
-        ldclakmal/sample:0.1.0
+        ldclakmal/sample:1.0.1
 
 Creating balos
-        target/balo/sample-2019r3-any-0.1.0.balo
+        target/balo/sample-2019r3-any-1.0.1.balo
 
 Running tests
-    ldclakmal/sample:0.1.0
+    ldclakmal/sample:1.0.1
 I'm the before suite function!
 I'm the before function!
 I'm in test function!
