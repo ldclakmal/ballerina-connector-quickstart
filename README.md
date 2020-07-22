@@ -6,7 +6,7 @@ This is a sample Ballerina connector for demonstration purpose.
 
 | Ballerina Language Version |
 |:--------------------------:|
-| 1.2.0                      |
+| 1.2.x, Swan Lake Preview x |
 
 ## Getting started
 
