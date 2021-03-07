@@ -6,7 +6,6 @@
 public function max(int a, int b) returns int {
     if (a > b) {
         return a;
-    } else {
-        return b;
     }
+    return b;
 }
