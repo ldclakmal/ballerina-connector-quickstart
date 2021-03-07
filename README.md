@@ -1,5 +1,7 @@
 # Ballerina Connector Quickstart
 
+[![Build](https://github.com/ldclakmal/ballerina-connector-quickstart/actions/workflows/master.yml/badge.svg)](https://github.com/ldclakmal/ballerina-connector-quickstart/actions/workflows/master.yml)
+
 This is a sample Ballerina connector for demonstration purpose.
 
 ## Compatibility
