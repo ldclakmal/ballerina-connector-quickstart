@@ -4,15 +4,16 @@ This is a sample Ballerina connector for demonstration purpose.
 
 ## Compatibility
 
-| Ballerina Language Version |
-|:--------------------------:|
-| Swan Lake Alpha            |
+|                            | **Version**       |
+|----------------------------|-------------------|
+| Ballerina Language         | Swan Lake Alpha 2 |
+| Java Development Kit (JDK) | 11                |
 
 ## Getting started
 
-> Refer the [Quick Tour](https://ballerina.io/learn/getting-started/quick-tour/) guide to download and install Ballerina.
-
-Move inside to `ballerina-connector-quickstart` directory and execute `$ ballerina build connector` command to verify the connector. It should compile the source and run the tests as follows:
+1. Refer to the [Quick Tour](https://ballerina.io/learn/getting-started/quick-tour/) guide to download and install Ballerina.
+2. Clone the [ballerina-connector-quickstart](https://github.com/ldclakmal/ballerina-connector-quickstart) GitHub repository.
+3. Move inside to `ballerina-connector-quickstart` directory and execute `$ ballerina build connector`. It should compile the source, run the tests and generates the executable as follows:
 
 ```shell
 Compiling source
@@ -40,9 +41,9 @@ Generating executable
         connector/target/bin/connector-1.1.0.jar
 ```
 
-## Use the connector
+## Samples
 
-Import the `ldclakmal/connector` module into the Ballerina project and check the usage of `max` function.
+Import the `ldclakmal/connector` module into your Ballerina project and check the usage of sample `max` function.
 
 ```ballerina
 import ballerina/io;
