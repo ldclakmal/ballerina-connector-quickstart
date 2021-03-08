@@ -2,13 +2,6 @@
 
 This is a sample Ballerina connector for demonstration purpose.
 
-## Compatibility
-
-|                            | **Version**       |
-|----------------------------|-------------------|
-| Ballerina Language         | Swan Lake Alpha 2 |
-| Java Development Kit (JDK) | 11                |
-
 ## Getting started
 
 1. Refer to the [Quick Tour](https://ballerina.io/learn/getting-started/quick-tour/) guide to download and install Ballerina.
