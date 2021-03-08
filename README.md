@@ -8,7 +8,7 @@ This is a sample Ballerina connector for demonstration purpose.
 
 |                            | **Version**       |
 |----------------------------|-------------------|
-| Ballerina Language         | Swan Lake Alpha 2 |
+| Ballerina Language         | Swan Lake Alpha 1 |
 | Java Development Kit (JDK) | 11                |
 
 ## Getting started
