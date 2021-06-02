@@ -8,18 +8,18 @@ This is a sample Ballerina connector for demonstration purpose.
 
 |                            | **Version**       |
 |----------------------------|-------------------|
-| Ballerina Language         | Swan Lake Alpha 1 |
+| Ballerina Language         | Swan Lake Beta 1 |
 | Java Development Kit (JDK) | 11                |
 
 ## Getting started
 
-1. Refer to the [Quick Tour](https://ballerina.io/learn/getting-started/quick-tour/) guide to download and install Ballerina.
+1. Refer to the [Setting up Ballerina](https://ballerina.io/learn/user-guide/getting-started/setting-up-ballerina/) guide to download and install Ballerina.
 2. Clone the [ballerina-connector-quickstart](https://github.com/ldclakmal/ballerina-connector-quickstart) GitHub repository.
 3. Move inside to `ballerina-connector-quickstart` directory and execute `$ ballerina build connector`. It should compile the source, run the tests and generates the executable as follows:
 
 ```shell
 Compiling source
-        ldclakmal/connector:1.1.0
+        ldclakmal/connector:1.2.0
 
 Running Tests
         connector
@@ -36,11 +36,8 @@ I'm the after suite function!
                 0 skipped
 
 
-Creating bala
-        target/bala/ldclakmal-connector-any-1.1.0.bala
-
 Generating executable
-        connector/target/bin/connector-1.1.0.jar
+        connector/target/bin/connector.jar
 ```
 
 ## Samples
