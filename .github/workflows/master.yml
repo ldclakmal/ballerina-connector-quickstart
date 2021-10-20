@@ -8,10 +8,9 @@ jobs:
   build:
     name: Build Connector
     runs-on: ubuntu-latest
-    env:
-      BALLERINA_VERSION: ${{ secrets.BALLERINA_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Ballerina Build
         uses: ballerina-platform/ballerina-action/@master
         with:
